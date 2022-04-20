@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable Image Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="title">Descubra agora as quantidades de temporadas das séries</h1>
+    <nav>
+      <ul class="items">
+        <li class="item active" data-name="todas">Todas</li>
+        <li class="item" data-name="temp1">1 temporada</li>
+        <li class="item" data-name="temp2a4">2 - 4 temporadas</li>
+        <li class="item" data-name="temp5">5 temporadas</li>
+        <li class="item" data-name="temp6a9">6 - 9 temporadas</li>
+        <li class="item" data-name="temp10mais">10+ temporadas</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="gallery">
+      <div class="image" data-name="temp10mais">
+        <span><img src="./img/greys.jpg" alt="Gre'ys Anatomy"></span>
+      </div>
+      <div class="image" data-name="temp5">
+        <span><img src="./img/jane.jpg" alt="Jane the virgen"></span>
+      </div>
+      <div class="image" data-name="temp6a9">
+        <span><img src="./img/oitnb.jpg" alt="Orange is the new black"></span>
+      </div>
+      <div class="image" data-name="temp6a9">
+        <span><img src="./img/ouat.jpg" alt="Once upon a time"></span>
+      </div>
+      <div class="image" data-name="temp10mais">
+        <span><img src="./img/ahs.jpg" alt="American horror story"></span>
+      </div>
+      <div class="image" data-name="temp1">
+        <span><img src="./img/inowt.jpg" alt="I am not okay with this"></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
